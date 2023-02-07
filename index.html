@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabar, bentar doang</title>
+
+    <span id="waktu">10</span> 
+    <script type="text/javascript">
+        var waktu = 10;
+        setInterval(function() {
+        waktu--;
+        if(waktu < 0) {
+        window.location = 'https://bit.ly/JanganLupaSaveYaa';
+        }else{
+        document.getElementById("waktu").innerHTML = waktu;
+        }
+        }, 1000);
+
+        alert("Haloo👋")
+        alert("Tunggu bentar yaa 😄")
+    </script>
+    <style>
+        body{
+            text-align: center;
+            font-size: xx-large;
+        }
+
+    </style>
+</head>
